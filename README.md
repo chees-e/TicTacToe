@@ -100,6 +100,11 @@ Do you want to play again (y/n) => n
 I hope you enjoyed my game, bye!
 
 ```
+---
+## Inspirations: 
+
+https://www.reddit.com/r/ProgrammerHumor/comments/12hl37d/god_why_is_coding_chess_so_hard/
+https://github.com/AceLewis/my_first_calculator.py/blob/master/my_first_calculator.py
 
 ---
 ## Have a nice day!
