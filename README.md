@@ -1,19 +1,16 @@
-# TicTacToe  (v1.0)
+# TicTacToe  (v1.1)
 ### by Shawn Lu
 
 ---
 
-Hello everyone, I like games and today I made PvP TicTacToe in Python3! I hope you like this game.
+Hello everyone, I like games and today I made Player vs CPU TicTacToe in Python3! I hope you like this game.
 
 To run the game, use the command:
 ```
 python3 tictactoe.py
 ```
 
-Because the game is so complicated it may take up to 30 seconds to load. 
-
-After the game has loaded, you can find a friend and take turns typing out the moves (specified by a coordinate). 
-Note: if you cannot find a friend you can always challenge yourself!
+You will be competing against the computer program, you will always make the first move. To make a move, you need to type a coordinate.
 
 A coordinate is represented with the column letter + row number. As follows:
 
@@ -28,12 +25,12 @@ A coordinate is represented with the column letter + row number. As follows:
 
 Here is a sample run of a game:
 ```
-> python .\out.py
+> python .\tictactoe.py
 
 Welcome to TicTacToe!
 
 
-### Turn 1, Player 1 ###
+## Turn 1, Your move: ##
 #                      #
 #        A   B   C     #
 #     1    |   |       #
@@ -43,52 +40,46 @@ Welcome to TicTacToe!
 #     3    |   |       #
 #                      #
 ########################
-Please select a square (e.g. A1) => B2
-
-### Turn 1, Player 2 ###
-#                      #
-#        A   B   C     #
-#     1    |   |       #
-#       -----------    #
-#     2    | X |       #
-#       -----------    #
-#     3    |   |       #
-#                      #
-########################
 Please select a square (e.g. A1) => B1
 
-### Turn 2, Player 1 ###
+> I played B2
+
+## Turn 2, Your move: ##
 #                      #
 #        A   B   C     #
-#     1    | O |       #
+#     1    | X |       #
 #       -----------    #
-#     2    | X |       #
+#     2    | O |       #
 #       -----------    #
 #     3    |   |       #
 #                      #
 ########################
-Please select a square (e.g. A1) => A3
+Please select a square (e.g. A1) => A2
 
-### Turn 2, Player 2 ###
+> I played C3
+
+## Turn 3, Your move: ##
 #                      #
 #        A   B   C     #
-#     1    | O |       #
+#     1    | X |       #
 #       -----------    #
-#     2    | X |       #
+#     2  X | O |       #
 #       -----------    #
-#     3  X |   |       #
+#     3    |   | O     #
 #                      #
 ########################
 Please select a square (e.g. A1) => A1
 
-### Turn 3, Player 1 ###
+> I played A3
+
+## Turn 4, Your move: ##
 #                      #
 #        A   B   C     #
-#     1  O | O |       #
+#     1  X | X |       #
 #       -----------    #
-#     2    | X |       #
+#     2  X | O |       #
 #       -----------    #
-#     3  X |   |       #
+#     3  O |   | O     #
 #                      #
 ########################
 Please select a square (e.g. C1) => C1
@@ -96,14 +87,14 @@ Please select a square (e.g. C1) => C1
 ########################
 #                      #
 #        A   B   C     #
-#     1  O | O | X     #
+#     1  X | X | X     #
 #       -----------    #
-#     2    | X |       #
+#     2  X | O |       #
 #       -----------    #
-#     3  X |   |       #
+#     3  O |   | O     #
 #                      #
 ########################
->>> Player 1 wins! <<<
+>>> You win, Congrats! <<<
 
 Do you want to play again (y/n) => n
 I hope you enjoyed my game, bye!
